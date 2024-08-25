@@ -14,15 +14,15 @@ import { ThemeProvider } from '@/theme/theme-provider'
 export const metadata: Metadata = {
   title: 'Maksym Azimov | Portfolio',
   description:
-    'Check out modern and stylish porfolio of an experienced Web Developer Maksym Azimov! Built using TypeScript, Next.js 14, Framaer Motion and Tailwind CSS.',
+    'Check out modern and stylish porfolio of an experienced Web Developer Maksym Azimov! Built using TypeScript, Next.js 14, Framaer Motion and Tailwind CSS.'
 }
 
 const fontMontserrat = FontMontserrat({
-  subsets: ['latin'],
+  subsets: ['latin']
 })
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode
 }>) {
@@ -31,7 +31,7 @@ export default function RootLayout({
       <body
         className={cn(
           'relative flex items-center justify-center',
-          fontMontserrat.className,
+          fontMontserrat.className
         )}
       >
         <div className="flex min-h-screen w-full flex-col">

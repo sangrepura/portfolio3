@@ -2,7 +2,7 @@ import React from 'react'
 
 const AnimatedBackground = () => {
   return (
-    <div className="absolute inset-0 animate-gradient bg-gradient-to-tl from-cyan-600 via-sky-400 to-teal-300"></div>
+    <div className="background-cover absolute inset-0 animate-gradient bg-gradient-to-br from-blue-200 via-blue-300 to-blue-500" />
   )
 }
 

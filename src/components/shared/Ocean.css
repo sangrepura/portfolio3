@@ -1,0 +1,54 @@
+i/* Original CSS pasted directly */
+
+ul.rays {
+  position: absolute;
+  left: -10em;
+  right: -10em;
+  top: -100%;
+  bottom: -90px;
+  margin: auto;
+  padding: 0;
+  width: 0;
+  height: 0;
+  list-style: none;
+  opacity: 0.8;
+  filter: blur(4px);
+}
+
+ul.rays.left {
+  animation: rotate-l 30s infinite linear;
+}
+
+ul.rays.right {
+  animation: rotate-r 20s infinite linear;
+}
+
+.rays > li,
+.rays > li:before,
+.rays > li:after {
+  position: absolute;
+  border: 0 solid transparent;
+  border-width: 1.2em 20em;
+  border-color: transparent rgba(255, 255, 255, 0.1);
+  width: 0;
+  height: 0;
+}
+
+.rays > li {
+  left: -20em;
+  top: 40%;
+  margin-top: -1.2em;
+  transform: rotate(0.1deg);
+}
+
+@keyframes rotate-l {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-r {
+  100% {
+    transform: rotate(-360deg);
+  }
+}

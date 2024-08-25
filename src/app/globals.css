@@ -4,6 +4,14 @@
 
 @layer base {
   :root {
+    /* Define ocean color variables using consistent naming */
+    --ocean-light-blue: 188, 35%, 56%; /* Only the values, no hsl() function */
+    --ocean-medium-blue: 193, 46%, 52%;
+    --ocean-sky-blue: 188, 41%, 61%;
+    --ocean-teal: 174, 34%, 48%;
+    --ocean-deep-teal: 193, 46%, 42%;
+    --ocean-pale-blue: 195, 39%, 74%;
+
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;

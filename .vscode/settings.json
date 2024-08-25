@@ -1,4 +1,6 @@
 {
+    "allowAnonymousTelemetry": true,
     "Codegeex.SidebarUI.LanguagePreference": "English",
-    "CodeGPT.apiKey": "CodeGPT Plus Beta"
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "Codegeex.RepoIndex": true
 }
